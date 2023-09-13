@@ -1,0 +1,17 @@
+int f(int *A,int count){    |
+                            | <----- Definition
+}                           |          
+...
+int f(int *,int);   <-------- Prototype / Declaration
+
+-----------------------------------------------------------------
+
+int f(int A[10],int count){ // int A[10] is not a copy, it is cba || Size 10 is irrelevant || Better to pass size separately
+
+}
+...
+int B[5],C[10000];
+f(B,n);
+f(C,n);
+
+--> We Only get a compiler warning function is not aware about size, unfilled spaces may have garbage value

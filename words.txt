@@ -1,0 +1,11 @@
+apple
+banana
+guava
+orange
+mango
+tango
+tree
+
+bird
+...
+human@gmail.com
