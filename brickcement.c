@@ -1,20 +1,24 @@
 /*
-Suppose a number of cubical bricks of equal sizes are set up in succession in a row. In some of the
-positions in the said row, there can be multiple bricks perfectly aligned over each other (as shown in the
-figure). There are additional bricks of the same shape to continue the construction. However, due to
-shortage of bricks for further construction, you have been asked to fill some space with quick-setting
-cement (to be poured onto that row) so that no cement spills over. Your only goal is to save maximum
-number of cubical bricks by pouring quick-setting cement. The rest of the things will be managed by
-the construction team. Write a program that takes the number of bricks already set up on the row and
+Suppose a number of cubical bricks of equal sizes are set up in succession in a row. 
+In some of the positions in the said row, there can be multiple bricks perfectly aligned over 
+each other (as shown in the figure). There are additional bricks of the same shape to 
+continue the construction. However, due to shortage of bricks for further construction, 
+you have been asked to fill some space with quick-setting
+cement (to be poured onto that row) so that no cement spills over. Your only goal is to save 
+maximum number of cubical bricks by pouring quick-setting cement. 
+The rest of the things will be managed by the construction team. Write a program that 
+takes the number of bricks already set up on the row and
 return the number of maximum bricks you can save by pouring quick-setting cement.
 Figure 1: The black cubes are bricks and the gray regions are covered by quick-setting cement.
 
 Input Format
-The input (to be read from stdin) comprises a series of non-negative integers representing the number of
-bricks aligned over each other as they successively appear in the row.
+The input (to be read from stdin) comprises a series of non-negative integers representing the 
+number of bricks aligned over each other as they successively appear in the row.
+
 Output Format
 The output (to be printed to stdout) shows the maximum number of bricks that can be saved by pouring
 quick-setting cement.
+
 Sample Input 0:
 0 1 0 2 1 0 1 3 2 1 2 1
 Sample Output 0:

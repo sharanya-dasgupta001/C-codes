@@ -2,7 +2,8 @@
 coins are put into small boxes of size s1, with each box containing
 exactly n1 coins. These small boxes are put into larger boxes of size
 s2. Each box of size s2 contains exactly n2 boxes of size s1. These
-boxes are packed into even larger boxes of size s3, and so on Write a program to determine the smallest number of boxes that have
+boxes are packed into even larger boxes of size s3, and so on
+Write a program to determine the smallest number of boxes that have
 to be opened in all in order to pay a given sum of money (Rs. X, say).
 Input format. The input will be provided via standard input (stdin)
 and be of the form
@@ -14,20 +15,26 @@ n1 is the number of one-rupee coins stored in the smallest boxes; ni
 each box of size si (si−1 < si).
 Note that you do not need the actual values of s1, s2, . . . , sm to solve this problem.
 Output format. Your program should print the minimum number of
-boxes that have to be opened (a single integer) to pay Rs. X. You may assume that the person has enough money to pay the requested
-amount.
+boxes that have to be opened (a single integer) to pay Rs. X. 
+You may assume that the person has enough money to pay the requested amount.
+
 Sample input 1.
 5 1 1 1 1 1 2
+
 Sample output 1.
 10
+
 Explanation. Each box contains only one inner box, so five boxes
 have to be opened in sequence to get Re. 1. Note that we are not told
 the actual number of boxes of the largest size that the person has; we
 assume that there are enough boxes to pay the required amount.
+
 Sample input 2.
 3 3 3 3 14
+
 Sample output 2.
 8
+
 Explanation. There are 3 box sizes: small (s1), medium (s2) and
 large (s3). Each box contains 3 smaller boxes/coins. One large box
 has to be opened. This contains three medium sized boxes, two of

@@ -1,10 +1,12 @@
 /*
-Suppose you are given with a File consisting of English alphabets only. You are asked to add a particular prefix
-to all the occurrences of a specific string (case-sensitive) in the said file. Write a program that can serve the
+Suppose you are given with a File consisting of English alphabets only. 
+You are asked to add a particular prefix
+to all the occurrences of a specific string (case-sensitive) in the said file.
+Write a program that can serve the
 purpose.
 Input Format
-Input will be provided in a File. The name of the File is to be taken as a command-line argument. The File will
-contain characters from the English alphabet.
+Input will be provided in a File. The name of the File is to be taken as a command-line argument. 
+The File will contain characters from the English alphabet.
 Output Format
 Output will be generated in the same input File.
 Command-line Arguments

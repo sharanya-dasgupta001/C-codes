@@ -1,14 +1,17 @@
 /*
-Recall that any arbitrary pair of hands (denoting hour, minute, and second) of a clock forms two possible
-angles within themselves. Write a program that takes an angle (any one of the possible two) between the other
-pair of hands (minute and hour) and returns whether there is any valid time satisfying the given angle or not,
-assuming that the second hand of a clock is residing at 12. Consider that an angle between a pair of hands of
+Recall that any arbitrary pair of hands (denoting hour, minute, and second) of a clock forms 
+two possible angles within themselves. Write a program that takes an angle (any one of the 
+possible two) between the other pair of hands (minute and hour) and returns whether there 
+is any valid time satisfying the given angle or not,
+assuming that the second hand of a clock is residing at 12. Consider that an angle between a 
+pair of hands of
 a clock will always remain within [0; 2pi].
-[20 marks]
+
 Input Format
-The input (to be read from stdin) is to be taken as a pair of integers (say m and n) representing the fractional
-angle between the minute and hour hands (in radian), i.e. the angle is m pi / n
-n radian.
+The input (to be read from stdin) is to be taken as a pair of integers (say m and n) 
+representing the fractional angle between the minute and hour hands (in radian), 
+i.e. the angle is m pi / n radian.
+
 Output Format
 The output (to be printed to stdout) will show whether the angle is VALID or INVALID.
 Sample Input 0
